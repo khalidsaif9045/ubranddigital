@@ -34,7 +34,7 @@ const testimonials = [
   },
   {
     img: TestimonialImg02,
-    clientImg: ClientImg02,
+    clientImg: ClientImg01,
     name: "Andrew K.",
     company: "Samsung",
     content:
@@ -43,7 +43,7 @@ const testimonials = [
   },
   {
     img: TestimonialImg03,
-    clientImg: ClientImg03,
+    clientImg: ClientImg01,
     name: "Lucy D.",
     company: "Rio",
     content:
@@ -52,7 +52,7 @@ const testimonials = [
   },
   {
     img: TestimonialImg04,
-    clientImg: ClientImg04,
+    clientImg: ClientImg01,
     name: "Pavel M.",
     company: "Canon",
     content:
@@ -61,7 +61,7 @@ const testimonials = [
   },
   {
     img: TestimonialImg05,
-    clientImg: ClientImg05,
+    clientImg: ClientImg01,
     name: "Miriam E.",
     company: "Cadbury",
     content:
@@ -70,7 +70,7 @@ const testimonials = [
   },
   {
     img: TestimonialImg06,
-    clientImg: ClientImg06,
+    clientImg: ClientImg01,
     name: "Eloise V.",
     company: "Maffell",
     content:
@@ -79,7 +79,7 @@ const testimonials = [
   },
   {
     img: TestimonialImg07,
-    clientImg: ClientImg07,
+    clientImg: ClientImg01,
     name: "Pierre-Gilles L.",
     company: "Binance",
     content:
@@ -88,7 +88,7 @@ const testimonials = [
   },
   {
     img: TestimonialImg08,
-    clientImg: ClientImg08,
+    clientImg: ClientImg01,
     name: "Danielle K.",
     company: "Forbes Inc.",
     content:
@@ -97,7 +97,7 @@ const testimonials = [
   },
   {
     img: TestimonialImg09,
-    clientImg: ClientImg09,
+    clientImg: ClientImg01,
     name: "Mary P.",
     company: "Ray Ban",
     content:
@@ -115,9 +115,12 @@ export default function Testimonials() {
       <div className="border-t py-12 [border-image:linear-gradient(to_right,transparent,--theme(--color-slate-400/.25),transparent)1] md:py-20">
         {/* Section header */}
         <div className="mx-auto max-w-3xl pb-12 text-center">
-          <h2 className="animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,var(--color-gray-200),var(--color-indigo-200),var(--color-gray-50),var(--color-indigo-300),var(--color-gray-200))] bg-[length:200%_auto] bg-clip-text pb-4 font-nacelle text-3xl font-semibold text-transparent md:text-4xl">
+          <h2
+            className="animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,#fdb77d,#fda95c,#ffe4cc,#fda95c,#fdb77d)] bg-[length:200%_auto] bg-clip-text pb-4 font-nacelle text-3xl font-semibold text-transparent md:text-4xl"
+          >
             Don't take our word for it
           </h2>
+
           <p className="text-lg text-indigo-200/65">
             We provide tech-first solutions that empower decision-makers to
             build healthier and happier workspaces from anywhere in the world.
@@ -135,7 +138,7 @@ export default function Testimonials() {
                 onClick={() => setCategory(1)}
               >
                 <svg
-                  className={`fill-current ${category === 1 ? "text-indigo-500" : "text-gray-600"}`}
+                  className={`fill-current ${category === 1 ? "text-[#fd6802]" : "text-gray-600"}`}
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
                   height={16}
