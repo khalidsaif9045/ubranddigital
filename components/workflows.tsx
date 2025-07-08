@@ -20,14 +20,13 @@ export default function Workflows() {
             <h2
               className="animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,#fdb77d,#fda95c,#ffe4cc,#fda95c,#fdb77d)] bg-[length:200%_auto] bg-clip-text pb-4 font-nacelle text-3xl font-semibold text-transparent md:text-4xl"
             >
-              Map your product journey
+              You're Already Successful...<br />So Why Are You Still Unknown?
+
             </h2>
 
 
             <p className="text-lg text-indigo-200/65">
-              Simple and elegant interface to start collaborating with your team
-              in minutes. It seamlessly integrates with your code and your
-              favorite programming languages.
+              You've built a profitable business. You deliver results. But when it comes to industry recognition, speaking opportunities, and premium deals - you're still invisible.
             </p>
           </div>
           {/* Spotlight items */}
@@ -71,14 +70,13 @@ export default function Workflows() {
                       <span
                         className="bg-[linear-gradient(to_right,#fdb77d,#fda95c,#fdb77d)] bg-clip-text text-transparent"
                       >
-                        Built-in Tools
+                        COMPETING ON PRICE
                       </span>
 
                     </span>
                   </div>
                   <p className="text-indigo-200/65">
-                    Streamline the product development flow with a content
-                    platform that's aligned across specs and insights.
+                    You're stuck in price wars while positioned competitors charge 3x more.
                   </p>
                 </div>
               </div>
@@ -121,13 +119,12 @@ export default function Workflows() {
                       <span
                         className="bg-[linear-gradient(to_right,#fdb77d,#fda95c,#fdb77d)] bg-clip-text text-transparent"
                       >
-                        Scale Instantly
+                        NO INDUSTRY RECOGNITION
                       </span>
                     </span>
                   </div>
                   <p className="text-indigo-200/65">
-                    Streamline the product development flow with a content
-                    platform that's aligned across specs and insights.
+                    Others get speaking gigs and media mentions while you stay overlooked.
                   </p>
                 </div>
               </div>
@@ -170,13 +167,12 @@ export default function Workflows() {
                       <span
                         className="bg-[linear-gradient(to_right,#fdb77d,#fda95c,#fdb77d)] bg-clip-text text-transparent"
                       >
-                        Tailored Flows
+                        INVISIBLE TO IDEAL CLIENTS
                       </span>
                     </span>
                   </div>
                   <p className="text-indigo-200/65">
-                    Streamline the product development flow with a content
-                    platform that's aligned across specs and insights.
+                    High-value prospects don't know you exist - they hire whoever they see first.
                   </p>
                 </div>
               </div>

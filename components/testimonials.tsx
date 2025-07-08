@@ -118,12 +118,11 @@ export default function Testimonials() {
           <h2
             className="animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,#fdb77d,#fda95c,#ffe4cc,#fda95c,#fdb77d)] bg-[length:200%_auto] bg-clip-text pb-4 font-nacelle text-3xl font-semibold text-transparent md:text-4xl"
           >
-            Don't take our word for it
+            When You Become the Authority, Everything Changes
           </h2>
 
           <p className="text-lg text-indigo-200/65">
-            We provide tech-first solutions that empower decision-makers to
-            build healthier and happier workspaces from anywhere in the world.
+            Our clients don't just get more business—they get better business. The kind that seeks them out.
           </p>
         </div>
 

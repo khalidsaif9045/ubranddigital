@@ -6,6 +6,7 @@ export const metadata = {
 import PageIllustration from "@/components/page-illustration";
 import Hero from "@/components/hero-home";
 import Hero2 from "@/components/hero-home2";
+import Hero3 from "@/components/hero-home3";
 import Workflows from "@/components/workflows";
 import Features from "@/components/features";
 import Testimonials from "@/components/testimonials";
@@ -15,8 +16,9 @@ export default function Home() {
   return (
     <>
       <PageIllustration />
-      <Hero />
-      <Hero2 />
+      <Hero3 />
+      {/* <Hero />
+      <Hero2 /> */}
       <Workflows />
       <Features />
       <Testimonials />
