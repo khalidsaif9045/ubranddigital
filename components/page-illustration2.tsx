@@ -22,9 +22,9 @@ export default function ImageColumnsSection() {
     "https://cdn.prod.website-files.com/67b8601df718fa2c5bd47fa5/67b86f9ed874c045dc2b8ffb_image%207.png",
   ];
 
-  const renderImageList = (images) => (
+  const renderImageList = (images: string[]) => (
     <div className="flex flex-col gap-4 animate-scroll-vertical">
-      {images.map((src, idx) => (
+      {images.map((src: string, idx: number) => (
         <div key={idx} className="overflow-hidden rounded-lg">
           <Image
             src={src}
