@@ -35,14 +35,14 @@ export default function Features() {
           {/* Section header */}
           <div className="mx-auto max-w-3xl pb-4 text-center md:pb-12">
             <div className="inline-flex items-center gap-3 pb-3 before:h-px before:w-8 before:bg-linear-to-r before:from-transparent before:to-indigo-200/50 after:h-px after:w-8 after:bg-linear-to-l after:from-transparent after:to-indigo-200/50">
-              <span className="inline-flex bg-linear-to-r from-indigo-500 to-indigo-200 bg-clip-text text-transparent">
+              <span className="inline-flex text-white">
                 Advanced Controls
               </span>
             </div>
-            <h2 className="animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,var(--color-gray-200),var(--color-indigo-200),var(--color-gray-50),var(--color-indigo-300),var(--color-gray-200))] bg-[length:200%_auto] bg-clip-text pb-4 font-nacelle text-3xl font-semibold text-transparent md:text-4xl">
+            <h2 className="pb-4 font-nacelle text-3xl font-semibold text-[#fec400] md:text-4xl">
               Built for modern product teams
             </h2>
-            <p className="text-lg text-indigo-200/65">
+            <p className="text-lg text-white">
               Open AI reads and understands your files, and with nothing more
               than a single line of feedback, so you can go further than the
               speed of thought.
@@ -61,7 +61,7 @@ export default function Features() {
           <div className="mx-auto grid max-w-sm gap-12 sm:max-w-none sm:grid-cols-2 md:gap-x-14 md:gap-y-16 lg:grid-cols-3">
             <article>
               <svg
-                className="mb-3 fill-indigo-500"
+                className="mb-3 fill-[#fec400]"
                 xmlns="http://www.w3.org/2000/svg"
                 width={24}
                 height={24}
@@ -82,7 +82,7 @@ export default function Features() {
             </article>
             <article>
               <svg
-                className="mb-3 fill-indigo-500"
+                className="mb-3 fill-[#fec400]"
                 xmlns="http://www.w3.org/2000/svg"
                 width={24}
                 height={24}
@@ -100,7 +100,7 @@ export default function Features() {
             </article>
             <article>
               <svg
-                className="mb-3 fill-indigo-500"
+                className="mb-3 fill-[#fec400]"
                 xmlns="http://www.w3.org/2000/svg"
                 width={24}
                 height={24}
@@ -121,7 +121,7 @@ export default function Features() {
             </article>
             <article>
               <svg
-                className="mb-3 fill-indigo-500"
+                className="mb-3 fill-[#fec400]"
                 xmlns="http://www.w3.org/2000/svg"
                 width={24}
                 height={24}
@@ -147,7 +147,7 @@ export default function Features() {
             </article>
             <article>
               <svg
-                className="mb-3 fill-indigo-500"
+                className="mb-3 fill-[#fec400]"
                 xmlns="http://www.w3.org/2000/svg"
                 width={24}
                 height={24}
@@ -168,7 +168,7 @@ export default function Features() {
             </article>
             <article>
               <svg
-                className="mb-3 fill-indigo-500"
+                className="mb-3 fill-[#fec400]"
                 xmlns="http://www.w3.org/2000/svg"
                 width={24}
                 height={24}

@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Illustration from "@/public/images/page-illustration.svg";
+import Illustration2 from "@/public/images/bgpattern.jpg";
 import BlurredShapeGray from "@/public/images/blurred-shape-gray.svg";
 import BlurredShape from "@/public/images/blurred-shape.svg";
 
@@ -16,7 +17,7 @@ export default function PageIllustration({
       >
         <Image
           className="max-w-none"
-          src={Illustration}
+          src={Illustration2}
           width={846}
           height={594}
           alt="Page illustration"

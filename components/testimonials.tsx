@@ -116,12 +116,12 @@ export default function Testimonials() {
         {/* Section header */}
         <div className="mx-auto max-w-3xl pb-12 text-center">
           <h2
-            className="animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,#fdb77d,#fda95c,#ffe4cc,#fda95c,#fdb77d)] bg-[length:200%_auto] bg-clip-text pb-4 font-nacelle text-3xl font-semibold text-transparent md:text-4xl"
+            className="pb-4 font-nacelle text-3xl font-semibold text-[#fa099b] md:text-4xl"
           >
             When You Become the Authority, Everything Changes
           </h2>
 
-          <p className="text-lg text-indigo-200/65">
+          <p className="text-lg text-white">
             Our clients don't just get more business—they get better business. The kind that seeks them out.
           </p>
         </div>
@@ -137,7 +137,7 @@ export default function Testimonials() {
                 onClick={() => setCategory(1)}
               >
                 <svg
-                  className={`fill-current ${category === 1 ? "text-[#fd6802]" : "text-gray-600"}`}
+                  className={`fill-current ${category === 1 ? "text-[#fa099b]" : "text-gray-600"}`}
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
                   height={16}
@@ -153,7 +153,7 @@ export default function Testimonials() {
                 onClick={() => setCategory(2)}
               >
                 <svg
-                  className={`fill-current ${category === 2 ? "text-indigo-500" : "text-gray-600"}`}
+                  className={`fill-current ${category === 2 ? "text-[#fa099b]" : "text-gray-600"}`}
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
                   height={16}
@@ -169,7 +169,7 @@ export default function Testimonials() {
                 onClick={() => setCategory(3)}
               >
                 <svg
-                  className={`fill-current ${category === 3 ? "text-indigo-500" : "text-gray-600"}`}
+                  className={`fill-current ${category === 3 ? "text-[#fa099b]" : "text-gray-600"}`}
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
                   height={16}
@@ -185,7 +185,7 @@ export default function Testimonials() {
                 onClick={() => setCategory(4)}
               >
                 <svg
-                  className={`fill-current ${category === 4 ? "text-indigo-500" : "text-gray-600"}`}
+                  className={`fill-current ${category === 4 ? "text-[#fa099b]" : "text-gray-600"}`}
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
                   height={16}
@@ -201,7 +201,7 @@ export default function Testimonials() {
                 onClick={() => setCategory(5)}
               >
                 <svg
-                  className={`fill-current ${category === 5 ? "text-indigo-500" : "text-gray-600"}`}
+                  className={`fill-current ${category === 5 ? "text-[#fa099b]" : "text-gray-600"}`}
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
                   height={16}

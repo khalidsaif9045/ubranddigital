@@ -3,7 +3,7 @@ export const metadata = {
   description: "Page description",
 };
 
-import PageIllustration from "@/components/page-illustration";
+import PageIllustration2 from "@/components/page-illustration2";
 import Hero from "@/components/hero-home";
 import Hero2 from "@/components/hero-home2";
 import Hero3 from "@/components/hero-home3";
@@ -15,7 +15,7 @@ import Cta from "@/components/cta";
 export default function Home() {
   return (
     <>
-      <PageIllustration />
+      <PageIllustration2 />
       <Hero3 />
       {/* <Hero />
       <Hero2 /> */}
