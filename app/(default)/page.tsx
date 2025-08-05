@@ -11,6 +11,7 @@ import Workflows from "@/components/workflows";
 import Features from "@/components/features";
 import Testimonials from "@/components/testimonials";
 import Cta from "@/components/cta";
+import FoundersSection from "@/components/founders";
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
       <Workflows />
       <Features />
       <Testimonials />
+      <FoundersSection />
       <Cta />
     </>
   );
