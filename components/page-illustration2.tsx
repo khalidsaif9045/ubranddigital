@@ -49,11 +49,11 @@ export default function ImageColumnsSection() {
         <div className="absolute inset-0 bg-black opacity-50 z-10"></div>
       </div>
       <div className="relative z-20 flex flex-col items-center justify-center text-center text-white py-20 px-4">
-        <p className="text-sm uppercase tracking-widest text-gray-300">THE UK’S #1 PERSONAL BRANDING AGENCY</p>
-        <h1 className="text-4xl md:text-5xl font-bold leading-tight mt-4">Personal Branding<br />That Actually Works</h1>
-        <p className="text-lg text-gray-300 mt-4">Here's what to expect when you work with us.</p>
+        <p className="text-sm uppercase tracking-widest text-gray-300">I help founders and coaches build a powerful presence on LinkedIn, <br /> so they stop being invisible and start getting noticed by the right people.</p>
+        <h1 className="text-4xl md:text-5xl font-bold leading-tight mt-4">You're Great at <br /> What You Do But No One Knows It Yet.</h1>
+        <p className="text-lg text-gray-300 mt-4">Worked with founders, coaches & experts across the UK, US, and Middle East.</p>
         <button className="mt-8 px-6 py-3 border border-[#fec400] text-white rounded-full hover:bg-[#fec400] hover:text-black transition">
-          Schedule Call →
+        Book a Free Strategy Call →
         </button>
       </div>
     </div>

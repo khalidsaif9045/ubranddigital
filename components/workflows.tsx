@@ -19,10 +19,10 @@ export default function Workflows() {
             <h2
               className="text-white pb-4 font-nacelle text-3xl font-semibold md:text-4xl"
             >
-              You're Already Successful...<br />So Why Are You Still Unknown?
+              You’re Already Successful, <br />So Why Are You Still Overlooked?
             </h2>
             <p className="text-lg text-white">
-              You've built a profitable business. You deliver results. But when it comes to industry recognition, speaking opportunities, and premium deals - you're still invisible.
+            You’ve built the business. You’ve got the results. But when it comes to visibility, recognition, or authority. it feels like you’re always two steps behind.
             </p>
           </div>
           {/* Spotlight items */}
@@ -42,10 +42,10 @@ export default function Workflows() {
                 <div className="p-6">
                   <div className="mb-3">
                     <span className="btn-sm relative rounded-full bg-gray-800/40 px-2.5 py-0.5 text-xs font-normal before:pointer-events-none before:absolute before:inset-0 before:rounded-[inherit] before:border before:border-transparent before:[background:linear-gradient(to_bottom,--theme(--color-gray-700/.15),--theme(--color-gray-700/.5))_border-box] before:[mask-composite:exclude_!important] before:[mask:linear-gradient(white_0_0)_padding-box,_linear-gradient(white_0_0)] hover:bg-gray-800/60">
-                      <span className="bg-[linear-gradient(to_right,white,#fa099b,white)] bg-clip-text text-transparent">COMPETING ON PRICE</span>
+                      <span className="bg-[linear-gradient(to_right,white,#fa099b,white)] bg-clip-text text-transparent">UNDERVALUED EXPERTISE</span>
                     </span>
                   </div>
-                  <p className="text-indigo-200/65">You're stuck in price wars while positioned competitors charge 3x more.</p>
+                  <p className="text-indigo-200/65">You're skilled, experienced, and trusted by clients, yet prospects still treat you like a commodity and compare your work to low-tier freelancers. It’s frustrating. And it’s unfair.</p>
                 </div>
               </div>
             </a>
@@ -61,10 +61,11 @@ export default function Workflows() {
                 <div className="p-6">
                   <div className="mb-3">
                     <span className="btn-sm relative rounded-full bg-gray-800/40 px-2.5 py-0.5 text-xs font-normal before:pointer-events-none before:absolute before:inset-0 before:rounded-[inherit] before:border before:border-transparent before:[background:linear-gradient(to_bottom,--theme(--color-gray-700/.15),--theme(--color-gray-700/.5))_border-box] before:[mask-composite:exclude_!important] before:[mask:linear-gradient(white_0_0)_padding-box,_linear-gradient(white_0_0)] hover:bg-gray-800/60">
-                      <span className="bg-[linear-gradient(to_right,white,#fa099b,white)] bg-clip-text text-transparent">NO INDUSTRY RECOGNITION</span>
+                      <span className="bg-[linear-gradient(to_right,white,#fa099b,white)] bg-clip-text text-transparent">NO PERCEPTION OF AUTHORITY</span>
                     </span>
                   </div>
-                  <p className="text-indigo-200/65">Others get speaking gigs and media mentions while you stay overlooked.</p>
+                  <p className="text-indigo-200/65">You’ve earned your place, but others with less experience get the spotlight. While you're busy delivering, they're getting invited, quoted, and followed. You deserve to be seen too.
+                  </p>
                 </div>
               </div>
             </a>
@@ -80,10 +81,10 @@ export default function Workflows() {
                 <div className="p-6">
                   <div className="mb-3">
                     <span className="btn-sm relative rounded-full bg-gray-800/40 px-2.5 py-0.5 text-xs font-normal before:pointer-events-none before:absolute before:inset-0 before:rounded-[inherit] before:border before:border-transparent before:[background:linear-gradient(to_bottom,--theme(--color-gray-700/.15),--theme(--color-gray-700/.5))_border-box] before:[mask-composite:exclude_!important] before:[mask:linear-gradient(white_0_0)_padding-box,_linear-gradient(white_0_0)] hover:bg-gray-800/60">
-                      <span className="bg-[linear-gradient(to_right,white,#fa099b,white)] bg-clip-text text-transparent">INVISIBLE TO IDEAL CLIENTS</span>
+                      <span className="bg-[linear-gradient(to_right,white,#fa099b,white)] bg-clip-text text-transparent">OUT OF SIGHT, OUT OF BUDGET</span>
                     </span>
                   </div>
-                  <p className="text-indigo-200/65">High-value prospects don't know you exist - they hire whoever they see first.</p>
+                  <p className="text-indigo-200/65">Even great work gets ignored if no one sees it. If you're not top-of-mind, you're not top-of-budget. Visibility isn’t a vanity play,it's a business one.</p>
                 </div>
               </div>
             </a>

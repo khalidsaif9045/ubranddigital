@@ -10,7 +10,7 @@ export default function HeroHome3() {
         {/* Hero content */}
         <div className="py-12 md:py-20">
           {/* Section header */}
-          <TextReveal className="text-white">Magic UI will change the way you design.</TextReveal>
+          <TextReveal className="text-white">You are an expert and still invisible online not because you lack skills, but because you never learn how to show up.</TextReveal>
           {/* <div className="pb-12 text-center md:pb-20">
             <h1
               className="animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,#ffd7b3,#fda95c,#ffe8d5,#fda95c,#ffd7b3)] bg-[length:200%_auto] bg-clip-text pb-5 font-nacelle text-4xl font-semibold text-transparent md:text-5xl"

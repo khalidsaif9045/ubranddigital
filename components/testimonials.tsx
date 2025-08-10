@@ -118,11 +118,12 @@ export default function Testimonials() {
           <h2
             className="pb-4 font-nacelle text-3xl font-semibold text-[#fa099b] md:text-4xl"
           >
-            When You Become the Authority, Everything Changes
+            When Your Content Starts Doing the Heavy Lifting, Everything Feels Lighter
           </h2>
 
           <p className="text-lg text-white">
-            Our clients don't just get more business—they get better business. The kind that seeks them out.
+            Our clients don’t just get more content, they get clarity. Direction. Confidence.
+            The kind that stops the scroll and finally sticks.
           </p>
         </div>
 
