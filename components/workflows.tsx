@@ -13,7 +13,7 @@ export default function Workflows() {
           <div className="mx-auto max-w-3xl pb-12 text-center md:pb-20">
           <div className="inline-flex items-center gap-3 pb-3 before:h-px before:w-8 before:bg-linear-to-r before:from-transparent before:to-indigo-200/50 after:h-px after:w-8 after:bg-linear-to-l after:from-transparent after:to-indigo-200/50">
               <span className="inline-flex text-[#fa099b]">
-                Tailored Workflows
+                A Custom Approach to Your Success
               </span>
             </div>
             <h2
