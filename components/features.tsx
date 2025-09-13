@@ -40,21 +40,18 @@ export default function Features() {
               </span>
             </div>
             <h2 className="pb-4 font-nacelle text-3xl font-semibold text-[#fec400] md:text-4xl">
-              Built for modern product teams
+              Designed for Ambitious Founders, Coaches & Creators Who Want to Stand Out on LinkedIn
             </h2>
             <p className="text-lg text-white">
-              Open AI reads and understands your files, and with nothing more
-              than a single line of feedback, so you can go further than the
-              speed of thought.
+              Even great work gets ignored if no one sees it. If you're not top-of-mind, you're not top-of-budget. Visibility isn’t a vanity play,it's a business one.
             </p>
           </div>
           <div className="flex justify-center pb-4 md:pb-12" data-aos="fade-up">
             <Image
-              className="max-w-none"
               src={FeaturesImage}
-              width={1104}
-              height={384}
               alt="Features"
+              className="w-full h-auto max-w-4xl"
+              priority
             />
           </div>
           {/* Items */}
