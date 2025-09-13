@@ -75,7 +75,7 @@ export default function FoundersSection() {
                   </div>
                 </div>
                 <div className="p-6 text-white text-left mt-5">
-                  <h3 className="text-2xl font-bold mb-1">Mariyum Haffez</h3>
+                  <h3 className="text-2xl font-bold mb-1">Mariyum Hafeez</h3>
                   <p className="text-sm text-gray-200">Co-Founder</p>
                   <p className="mt-3 text-base leading-relaxed">
                     Strategic partner focused on growth, partnerships, and scaling operations to maximize impact and reach.
