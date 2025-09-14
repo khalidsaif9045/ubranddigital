@@ -3,20 +3,24 @@
 import { motion, useScroll, useTransform, MotionValue } from "framer-motion";
 import { FC, ReactNode, useRef } from "react";
 
-export const TextReveal: FC<{ children: string }> = ({ children }) => {
+interface TextRevealProps {
+  children: string;
+  className?: string; // ✅ allow className
+}
+
+export const TextReveal: FC<TextRevealProps> = ({ children, className }) => {
   const containerRef = useRef<HTMLDivElement | null>(null);
 
-  // Observe the scroll of the whole container
   const { scrollYProgress } = useScroll({
     target: containerRef,
-    offset: ["start start", "end end"], 
+    offset: ["start start", "end end"],
   });
 
   const words = children.split(" ");
 
   return (
-    <div ref={containerRef} className="relative h-[400vh]">
-      {/* Sticky area keeps text fixed in center */}
+    <div ref={containerRef} className={`relative h-[400vh] ${className || ""}`}>
+      {/* Sticky area keeps text fixed */}
       <div className="sticky top-0 flex h-screen items-center justify-center px-4">
         <span className="flex flex-wrap max-w-4xl text-center text-2xl font-bold text-white/20 md:text-3xl lg:text-4xl xl:text-5xl">
           {words.map((word, i) => {
@@ -34,11 +38,13 @@ export const TextReveal: FC<{ children: string }> = ({ children }) => {
   );
 };
 
-const Word: FC<{
+interface WordProps {
   children: ReactNode;
   progress: MotionValue<number>;
   range: [number, number];
-}> = ({ children, progress, range }) => {
+}
+
+const Word: FC<WordProps> = ({ children, progress, range }) => {
   const opacity = useTransform(progress, range, [0, 1]);
   const y = useTransform(progress, range, ["20px", "0px"]);
 
