@@ -43,7 +43,7 @@ export default function StrategyFormPopup({ onClose }: { onClose: () => void }) 
     e.preventDefault();
     setLoading(true);
 
-    const res = await fetch("/api/sendMail", {
+    const res = await fetch("https://ubrand-backend.vercel.app/api/sendMail", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(formData),
