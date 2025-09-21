@@ -1,1 +1,0 @@
-.typewriter{display:inline-block;overflow:hidden;white-space:nowrap;border-right:2px solid #000;width:0;animation:typing 3s steps(30) 2.5s infinite alternate,blink .7s step-end infinite}@keyframes typing{0%{width:0}to{width:26ch}}@keyframes blink{0%,to{border-color:transparent}50%{border-color:#000}}
