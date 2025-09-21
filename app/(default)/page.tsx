@@ -12,6 +12,7 @@ import Features from "@/components/features";
 import Testimonials from "@/components/testimonials";
 import Cta from "@/components/cta";
 import FoundersSection from "@/components/founders";
+import Gallery from "@/components/results";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       <Hero3 />
       {/* <Hero />
       <Hero2 /> */}
+      <Gallery />
       <Workflows />
       <Features />
       <Testimonials />
