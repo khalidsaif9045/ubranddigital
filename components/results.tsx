@@ -12,9 +12,12 @@ import Thumbnails from "yet-another-react-lightbox/plugins/thumbnails";
 import "yet-another-react-lightbox/plugins/thumbnails.css";
 
 const slides = [
-  { src: "/images/testimonial-01old.jpg" },
-  { src: "/images/testimonial-02old.jpg" },
-  { src: "/images/testimonial-03old.jpg" },
+  { src: "/images/1.png" },
+  { src: "/images/2.png" },
+  { src: "/images/3.png" },
+  { src: "/images/4.png" },
+  { src: "/images/5.png" },
+  { src: "/images/6.png" },
 ];
 
 export default function Gallery() {
@@ -34,10 +37,10 @@ export default function Gallery() {
             <h2
               className="text-white pb-4 font-nacelle text-3xl font-semibold md:text-4xl"
             >
-              You’re Already Successful, <br />So Why Are You Still Overlooked?
+              Proof Over Promises, <br />Real Results. Real Impact.
             </h2>
             <p className="text-lg text-white">
-            You’ve built the business. You’ve got the results. But when it comes to visibility, recognition, or authority. it feels like you’re always two steps behind.
+            See how people like your transformed their brand with our strategies. We don’t just talk results, we deliver them. Here’s the evidence.
             </p>
           </div>
 
