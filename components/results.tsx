@@ -11,14 +11,23 @@ import Zoom from "yet-another-react-lightbox/plugins/zoom";
 import Thumbnails from "yet-another-react-lightbox/plugins/thumbnails";
 import "yet-another-react-lightbox/plugins/thumbnails.css";
 
-const slides = [
-  { src: "/images/1.png" },
-  { src: "/images/2.png" },
-  { src: "/images/3.png" },
-  { src: "/images/4.png" },
-  { src: "/images/5.png" },
-  { src: "/images/6.png" },
-];
+import ResultImg01 from "@/public/images/1.png";
+import ResultImg02 from "@/public/images/2.png";
+import ResultImg03 from "@/public/images/3.png";
+import ResultImg04 from "@/public/images/4.png";
+import ResultImg05 from "@/public/images/5.png";
+import ResultImg06 from "@/public/images/6.png";
+
+// const slides = [
+//   { src: ResultImg01 },
+//   { src: ResultImg02 },
+//   { src: ResultImg03 },
+//   { src: ResultImg04 },
+//   { src: ResultImg05 },
+//   { src: ResultImg06 },
+// ];
+const images = [ResultImg01, ResultImg02, ResultImg03, ResultImg04, ResultImg05, ResultImg06];
+const slides = images.map(img => ({ src: img.src }));
 
 export default function Gallery() {
   const [open, setOpen] = useState(false);
