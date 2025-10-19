@@ -55,12 +55,12 @@ export default function ImageColumnsSection() {
       <div className="relative z-20 flex flex-col items-center justify-center text-center text-white py-20 px-4">
         <p className="text-sm uppercase tracking-widest text-gray-300">We help founders and coaches build a powerful presence on LinkedIn, <br /> so they stop being invisible and start getting noticed by the right people.</p>
         <h1 className="text-4xl md:text-5xl font-bold leading-tight mt-4">You're Great at <br /> What You Do But No One Knows It Yet.</h1>
-        <button onClick={() => setShowPopup(true)} className="mt-8 px-6 py-3 border border-[#fec400] text-white rounded-full hover:bg-[#fec400] hover:text-black transition">
+        <button onClick={() => window.open("https://calendly.com/mohdhashim/new-meeting", "_blank")} className="mt-8 px-6 py-3 border border-[#fec400] text-white rounded-full hover:bg-[#fec400] hover:text-black transition">
         Book a Free Strategy Call →
         </button>
         <p className="text-lg text-gray-300 mt-4">Worked with founders, coaches & experts across the UK, US, and Middle East.</p>
       </div>
-      {showPopup && <StrategyFormPopup onClose={() => setShowPopup(false)} />}
+      {/* {showPopup && <StrategyFormPopup onClose={() => setShowPopup(false)} />} */}
     </div>
   );
 } 

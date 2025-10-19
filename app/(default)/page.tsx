@@ -26,7 +26,7 @@ export default function Home() {
       <Features />
       <Testimonials />
       <FoundersSection />
-      <Cta />
+      {/* <Cta /> */}
     </>
   );
 }
