@@ -4,7 +4,7 @@
   "homepage": "https://khalidsaif9045.github.io/ubranddigital",
   "private": true,
   "scripts": {
-    "predeploy": "rm -rf out && NODE_ENV=production npm run build && touch out/.nojekyll",
+    "predeploy": "rm -rf out && GITHUB_PAGES=true NODE_ENV=production npm run build && touch out/.nojekyll",
     "deploy": "gh-pages -d out --dotfiles",
     "dev": "next dev",
     "build": "next build",

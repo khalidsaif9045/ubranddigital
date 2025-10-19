@@ -1,14 +1,16 @@
-const isProd = process.env.NODE_ENV === 'production';
+const isGitHubPages = process.env.GITHUB_PAGES === 'true';
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',
+  output: 'export', // replaces next export
   trailingSlash: true,
-  basePath: isProd ? '/ubranddigital' : '',
-  assetPrefix: isProd ? '/ubranddigital/' : '',
-  images: {
-    unoptimized: true,
-  },
+  images: { unoptimized: true },
+  ...(isGitHubPages
+    ? {
+        basePath: '/ubranddigital',
+        assetPrefix: '/ubranddigital/',
+      }
+    : {}),
 };
 
 module.exports = nextConfig;
